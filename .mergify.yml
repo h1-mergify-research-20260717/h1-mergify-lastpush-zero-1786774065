@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: H1 EXP034 last push 1786774065
+    conditions:
+      - base = h1-exp034-target-1786774065
+      - title = H1_EXP034_TRIGGER_1786774065
+    actions:
+      merge:
+        method: merge
